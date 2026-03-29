@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 import { Toaster } from '@/components/ui/sonner';
-import ScrollToTop from './components/ScrollToTop.js';
-import DashboardPage from './pages/DashboardPage.js';
+import ScrollToTop from '@/components/ScrollToTop.jsx';
+import DashboardPage from '@/pages/DashboardPage.jsx';
 
 function App() {
   useEffect(() => {
